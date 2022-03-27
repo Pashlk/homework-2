@@ -1,0 +1,140 @@
+body, html {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.pink {
+    background-color: deeppink;
+}
+
+.orange {
+    background-color: orangered;
+}
+
+.top {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 4;
+}
+
+.mid {
+    width: 100%;
+    flex: 9;
+    flex-direction: row;
+}
+
+.bot {
+    justify-content: end;
+    width: 100%;
+    flex: 1;
+}
+
+.top-center {
+    justify-content: end;
+    width: 60%;
+    height: 50%;
+}
+
+.top-center-right {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+}
+
+.top-center-right-center {
+    height: 66%;
+    width: 60%;
+}
+
+.top-center-right-center-left {
+    height: 100%;
+    width: 33%;
+    background-color: saddlebrown;
+}
+
+.mid-half-left {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+}
+
+.mid-half-left-top {
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+    height: 16%;
+}
+
+.mid-half-left-top-right {
+    width: 25%;
+    height: 100%;
+}
+
+.mid-half-left-bot {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 16%;
+}
+
+.mid-half-left-bot-center {
+    width: 60%;
+    height: 50%;
+}
+
+.mid-half-right {
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.mid-half-right-center {
+    justify-content: space-between;
+    width: 100%;
+    height: 16%;
+}
+
+.mid-half-right-center-side {
+    flex-direction: column;
+    justify-content: end;
+    width: 25%;
+    height: 100%;
+}
+
+.mid-half-right-center-side-bot {
+    width: 100%;
+    height: 33%;
+}
+
+.bot-right {
+    flex-direction: column;
+    justify-content: end;
+    width: 37%;
+    height: 100%;
+}
+
+.bot-right-bot {
+    width: 100%;
+    height: 33%;
+}
